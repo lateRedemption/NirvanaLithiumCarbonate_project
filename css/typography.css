@@ -1,0 +1,70 @@
+.titulo-principal {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.formula-principal {
+    font-size: 2rem;
+    color: #ff1a1a;
+}
+
+.titulo-secao-vermelho {
+    color: #ff1a1a;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.subtitulo-secao {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: #ff1a1a;
+}
+
+.destaque {
+    color: #ffffff;
+    background: #5a0000;
+    padding: 2px 6px;
+    font-weight: bold;
+    border: 1px solid #ff1a1a;
+}
+
+.destaque-caixa {
+    color: #ffffff;
+    background: #ff1a1a;
+    padding: 2px 8px;
+    font-weight: bold;
+}
+
+.letra-musica {
+    background: #111111;
+    padding: 15px;
+    border: 3px dashed #ff1a1a;
+    white-space: pre-line;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.traducao-musica {
+    color: #888888;
+}
+
+.texto-decorativo {
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    color: #ff1a1a;
+    margin-bottom: 10px;
+}
+
+.creditos {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 0.9rem;
+    color: #888888;
+    margin-bottom: 5px;
+}
+
+.ref {
+    border-top: 1px dotted #ff1a1a;
+    padding-top: 20px;
+    color: #888888;
+    font-size: 0.9rem;
+}
