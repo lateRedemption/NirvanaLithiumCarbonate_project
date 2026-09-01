@@ -1,5 +1,5 @@
-const botao_gabarito = document.getElementById('botao-gabarito');
-const painelResultado = document.getElementById('resultado-painel');
+const botao_gabarito = document.querySelector('#botao-gabarito');
+const painelResultado = document.querySelector('#resultado-painel');
 
 botao_gabarito.addEventListener('click', function() {
   const r1 = document.querySelector('input[name="q1"]:checked');
@@ -12,9 +12,9 @@ botao_gabarito.addEventListener('click', function() {
   }
 
   let nota = 0;
-  if (r1.value === 'C') nota++;
-  if (r2.value === 'A') nota++;
-  if (r3.value === 'B') nota++;
+  if (r1.value == 'C') nota++;
+  if (r2.value == 'A') nota++;
+  if (r3.value == 'B') nota++;
 
   let avaliacao = '<h3>Resultado:</h3><br>';
   avaliacao += '<p>Questão 1: Sua resposta: ' + r1.value + ' | Correta: C</p>';
