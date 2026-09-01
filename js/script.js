@@ -1,7 +1,7 @@
 const botao_gabarito = document.querySelector('#botao-gabarito');
 const painelResultado = document.querySelector('#resultado-painel');
 
-botao_gabarito.addEventListener('click', function {
+botao_gabarito.addEventListener('click', function() {
   const r1 = document.querySelector('input[name="q1"]:checked');
   const r2 = document.querySelector('input[name="q2"]:checked');
   const r3 = document.querySelector('input[name="q3"]:checked');
