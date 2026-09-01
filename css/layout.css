@@ -1,0 +1,97 @@
+.cabecalho {
+    border-bottom: 4px dashed #ff1a1a;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.conteudo-principal {
+    max-width: 900px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.rodape {
+    border-top: 3px dashed #ff1a1a;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.par-bloco {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.bloco-linha-1 {
+    align-items: stretch;
+}
+
+.bloco-foto-kurt {
+    float: left;
+}
+
+.foto-kurt {
+    width: 120px;
+    transform: rotate(-8deg);
+    border: 2px solid #ff1a1a;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.imagem-suporte-1, .imagem-suporte-2, .imagem-suporte-3, .imagem-suporte-4, .imagem-suporte-5 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-disco {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 2px solid #ff1a1a;
+    filter: grayscale(100%) contrast(1000%);
+    animation: roda 2s linear infinite;
+}
+
+.imagem-lateral-2, .imagem-lateral-3, .imagem-lateral-4, .imagem-lateral-5 {
+    width: 100%;
+    max-width: 200px;
+    border: 2px solid #ff1a1a;
+    transform: rotate(5deg);
+    display: block;
+    margin: 0 auto;
+}
+
+.imagem-lateral-3 {
+    filter: grayscale(100%) contrast(110%);
+}
+
+.imagem-lateral-5 {
+    filter: grayscale(100%) contrast(150%);
+}
+
+@media (max-width: 768px) {
+    .par-bloco {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .welcome,
+    .identificacao,
+    .aparicao-musica,
+    .analise-cientifica,
+    .aplicacoes-reais,
+    .imagem-lateral-2,
+    .imagem-lateral-3,
+    .imagem-lateral-4,
+    .imagem-lateral-5,
+    .foto-kurt {
+        transform: none;
+    }
+
+    .bloco-linha-2, .bloco-linha-4 {
+        flex-direction: column-reverse;
+    }
+}
