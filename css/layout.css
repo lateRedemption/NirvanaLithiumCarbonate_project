@@ -23,8 +23,9 @@
     align-items: center;
 }
 
+/* ALTERADO: De 'stretch' para 'flex-start' para o fundo acompanhar o crescimento do texto */
 .bloco-linha-1 {
-    align-items: stretch;
+    align-items: flex-start;
 }
 
 .bloco-foto-kurt {
